@@ -12,6 +12,13 @@ This project aims to classify news articles into categories. Two datasets from K
 The business case for this project is to help news agencies to classify their articles automatically, especially for historical data which is mostly unclassified. The research paper linked above details the importance of this task as well as best practices of the implementation of machine learning models in journalism.
 
 ## How to run
+
+To run the project, you need to have Python installed on your machine. The project was developed using Python 3.8.5. You can install the required packages by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
 The project is divided into two notebooks, one for each dataset. The first notebook is `main.ipynb` and the second is `main_balanced.ipynb`. The first notebook contains the analysis of the unbalanced dataset and the second contains the analysis of the balanced dataset. Both notebooks contain the same steps. The datasets are included in the repository inside the `dataset` folder.
 
 Since retraining the model can be time-consuming, the models are saved in the `models` folder. The models are loaded in the notebooks to avoid retraining. In case you want to retrain the models, you can run the cells that train the models by deleting the models from the `models` folder.
