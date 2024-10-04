@@ -19,7 +19,7 @@ To run the project, you need to have Python installed on your machine. The proje
 pip install -r requirements.txt
 ```
 
-The project is divided into two notebooks, one for each dataset. The first notebook is `main.ipynb` and the second is `main_balanced.ipynb`. The first notebook contains the analysis of the unbalanced dataset and the second contains the analysis of the balanced dataset. Both notebooks contain the same steps. The datasets are included in the repository inside the `dataset` folder.
+The project is divided into two notebooks, one for each dataset. The first notebook is `main.ipynb` and the second is `main_balanced.ipynb`. The first notebook contains the analysis of the unbalanced dataset and the second contains the analysis of the balanced dataset. Both notebooks contain the same steps. The datasets are included in the repository inside the `dataset` folder. They contain more information about the datasets and the steps taken to preprocess the data, train the models, and evaluate them, as well as the results obtained through graphs and tables.
 
 Since retraining the model can be time-consuming, the models are saved in the `models` folder. The models are loaded in the notebooks to avoid retraining. In case you want to retrain the models, you can run the cells that train the models by deleting the models from the `models` folder.
 
